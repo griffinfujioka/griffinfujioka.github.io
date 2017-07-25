@@ -113,6 +113,12 @@ header{
 	color:#262626;
 }
 
+.subheadline {
+	font-family: 'Permanent Marker', cursive;
+	font-weight: 5;
+	margin: 0;
+}
+
 .scrollDown {
     font-size: 4em;
     color: rgba(255, 255, 255, 0.4);
@@ -147,11 +153,11 @@ header{
 }
 
 .logo-text {
-    font-size: 3em;
+    font-size: 2em;
     padding: 0.2em 0;
     color: #fff;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 100;
+    font-family: 'Rock Salt', cursive;
+    font-weight: 25;
     display: table-cell;
 	vertical-align: middle;
 }
@@ -242,6 +248,14 @@ header{
 }
 .pe-dj {
     font-size: 5em;
+}
+
+/*  /////////////////////////////////////////////////////////////////////
+// About Me 
+/////////////////////////////////////////////////////////////////////*/ 
+
+.about-area {
+    margin: e80px 0px 40px 0px;
 }
 
 
@@ -425,7 +439,7 @@ header{
 
 .mapWrap {
     position: relative;
-    min-height: 600px;
+    /*min-height: 600px;*/
 }
 #googleMap {
     position: absolute !important;
