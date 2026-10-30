@@ -223,6 +223,15 @@ header{
 .service-area {
     margin: 80px 0px 40px 0px;
 }
+.service-cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.service-cards::before,
+.service-cards::after {
+	display: none;
+}
 
 .service-wrap {
     width: 100%;
@@ -246,7 +255,7 @@ header{
 .service-wrap h3 {
     margin: 10px 0px;
 }
-.pe-dj {
+i.pe-dj {
     font-size: 5em;
 }
 
@@ -640,7 +649,7 @@ footer {
 		padding: 0px 40px;
 		font-size: 14px;
 	}
-	.pe-dj {
+	i.pe-dj {
 		font-size: 6em;
 	}
 
@@ -663,7 +672,7 @@ footer {
 		margin: 0 auto;
 		margin-bottom: 30px;
 	}
-	.pe-dj {
+	i.pe-dj {
 		font-size: 6em;
 	}
 	.service-wrap i {
